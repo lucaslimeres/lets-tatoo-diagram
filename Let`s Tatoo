@@ -1,1 +1,112 @@
-<mxfile host="app.diagrams.net" modified="2021-11-23T03:55:58.065Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" version="15.8.2" etag="O0UDAh27-smZ0IFaUTYY" type="github"><diagram id="sdKcjoU7YKcrpHHlXJ6P">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-23T04:13:10.017Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="c3-1Z0KK0TswwqpnhQ_1" version="15.8.2" type="github">
+  <diagram id="sdKcjoU7YKcrpHHlXJ6P" name="Page-1">
+    <mxGraphModel dx="872" dy="1651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_RRSyGe-g_3NXbsp4wFX-2" value="[client].[tb_client]" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="130" width="180" height="270" as="geometry">
+            <mxRectangle x="340" y="190" width="50" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_RRSyGe-g_3NXbsp4wFX-3" value="id_client: int PK INCREMENT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="_RRSyGe-g_3NXbsp4wFX-2">
+          <mxGeometry y="30" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_RRSyGe-g_3NXbsp4wFX-4" value="name: varchar" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="_RRSyGe-g_3NXbsp4wFX-2">
+          <mxGeometry y="60" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_RRSyGe-g_3NXbsp4wFX-5" value="email: varchar" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="_RRSyGe-g_3NXbsp4wFX-2">
+          <mxGeometry y="90" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_RRSyGe-g_3NXbsp4wFX-6" value="phone: varchar" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="_RRSyGe-g_3NXbsp4wFX-2">
+          <mxGeometry y="120" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_RRSyGe-g_3NXbsp4wFX-7" value="id_addres: int FK" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="_RRSyGe-g_3NXbsp4wFX-2">
+          <mxGeometry y="150" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_RRSyGe-g_3NXbsp4wFX-39" value="document: varchar" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="_RRSyGe-g_3NXbsp4wFX-2">
+          <mxGeometry y="180" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_RRSyGe-g_3NXbsp4wFX-40" value="owner_name: varchar" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="_RRSyGe-g_3NXbsp4wFX-2">
+          <mxGeometry y="210" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_RRSyGe-g_3NXbsp4wFX-41" value="owner_document: varchar" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="_RRSyGe-g_3NXbsp4wFX-2">
+          <mxGeometry y="240" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_RRSyGe-g_3NXbsp4wFX-13" value="[client].[tb_address]" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="130" width="180" height="240" as="geometry">
+            <mxRectangle x="340" y="190" width="50" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_RRSyGe-g_3NXbsp4wFX-14" value="id_address: int PK INCREMENT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="_RRSyGe-g_3NXbsp4wFX-13">
+          <mxGeometry y="30" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_RRSyGe-g_3NXbsp4wFX-18" value="postal_code: varchar" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="_RRSyGe-g_3NXbsp4wFX-13">
+          <mxGeometry y="60" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_RRSyGe-g_3NXbsp4wFX-19" value="street: varchar" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="_RRSyGe-g_3NXbsp4wFX-13">
+          <mxGeometry y="90" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_RRSyGe-g_3NXbsp4wFX-20" value="number: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="_RRSyGe-g_3NXbsp4wFX-13">
+          <mxGeometry y="120" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_RRSyGe-g_3NXbsp4wFX-21" value="neighborhood: varchar" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="_RRSyGe-g_3NXbsp4wFX-13">
+          <mxGeometry y="150" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_RRSyGe-g_3NXbsp4wFX-22" value="city: varchar" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="_RRSyGe-g_3NXbsp4wFX-13">
+          <mxGeometry y="180" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_RRSyGe-g_3NXbsp4wFX-23" value="state: varchar" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="_RRSyGe-g_3NXbsp4wFX-13">
+          <mxGeometry y="210" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_RRSyGe-g_3NXbsp4wFX-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_RRSyGe-g_3NXbsp4wFX-7" target="_RRSyGe-g_3NXbsp4wFX-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_RRSyGe-g_3NXbsp4wFX-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_RRSyGe-g_3NXbsp4wFX-14" target="_RRSyGe-g_3NXbsp4wFX-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_RRSyGe-g_3NXbsp4wFX-28" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="60" as="sourcePoint" />
+            <mxPoint x="90" y="60" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="90" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_RRSyGe-g_3NXbsp4wFX-32" value="1:1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="40" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_RRSyGe-g_3NXbsp4wFX-33" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="-1" as="sourcePoint" />
+            <mxPoint x="90" y="-1" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="40" y="-1" />
+              <mxPoint x="60" y="-1" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_RRSyGe-g_3NXbsp4wFX-34" value="N:1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="45" y="-21" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_RRSyGe-g_3NXbsp4wFX-35" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="30" as="sourcePoint" />
+            <mxPoint x="40" y="30" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="60" y="30" />
+              <mxPoint x="40" y="30" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_RRSyGe-g_3NXbsp4wFX-36" value="1:N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="10" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_RRSyGe-g_3NXbsp4wFX-38" value="Legenda" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="20" y="-50" width="90" height="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
